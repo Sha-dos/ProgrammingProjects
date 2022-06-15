@@ -1,0 +1,9 @@
+[package]
+name = "radar"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+opensky_api = "0.1.4"
+tokio = { version = "1.12", features = ["full"]}
